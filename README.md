@@ -6,6 +6,7 @@
 
 ## Komponenten
 
+- **Router:** TP Link Deco x50 5G
 - **Firewall:** Intel NUC mit OPNsense
 - **Switch:** TP-Link Omada SG2008P (VLAN-fähig)
 - **Server:** Proxmox-Host auf einem zweiten Intel NUC (siehe [Proxmox-Projekt](https://github.com/ProOstSport/homelab-proxmox))
@@ -40,7 +41,7 @@ Proxmox-Host srv-01 (NUC)
 
 ## Offene Punkte
 
-- Tagged/Untagged-Zuordnung je Port prüfen (die Screenshots zeigen nur PVID und Mitgliedschaften)
+- Tagged/Untagged-Zuordnung je Port prüfen
 - Restliche Portbelegung erfassen
 - Firewall-Regeln und DNS-Konfiguration vollständig dokumentieren
 - Regelprüfung: Gezielt testen, ob Inter-VLAN-Zugriffe blockiert werden
